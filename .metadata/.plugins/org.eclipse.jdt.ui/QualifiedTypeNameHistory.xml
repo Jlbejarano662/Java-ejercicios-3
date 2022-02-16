@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="clearminds.cuentas.Cuenta"/>
+<fullyQualifiedTypeName name="com.cmc.flujo.Auto"/>
+<fullyQualifiedTypeName name="com.cmc.entidades.Producto"/>
+<fullyQualifiedTypeName name="com.cmc.entidades.Direccion"/>
+<fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminTelefono"/>
+<fullyQualifiedTypeName name="com.cmc.directorio.entidades.Telefono"/>
+<fullyQualifiedTypeName name="com.cmc.directorio.entidades.Contacto"/>
+<fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminContactos"/>
+</qualifiedTypeNameHistroy>

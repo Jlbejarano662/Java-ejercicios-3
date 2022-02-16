@@ -1,0 +1,13 @@
+package com.cmc.flujo;
+
+public class Auto {
+	private int cantidadGasolina;
+	private int capacidadtanque;
+	
+	public Auto(int capacidadTanque) {
+		this.capacidadtanque = capacidadTanque;
+	}
+	public void cargarGasolina(int cantidad)  {
+		cantidadGasolina = cantidadGasolina + cantidad;
+	}
+}

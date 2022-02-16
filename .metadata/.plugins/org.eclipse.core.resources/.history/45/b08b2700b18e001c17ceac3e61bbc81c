@@ -1,0 +1,25 @@
+package clearminds.cuentas.test;
+
+import clearminds.cuentas.Cuenta;
+
+public class TestCuenta {
+
+	public static void main(String[] args) {
+
+		//Creo el objeto Cuenta y lo referencio con cuenta1
+		Cuenta cuenta1 = new Cuenta("03476");
+
+		//Coloco un valor de saldo en la cuenta1
+		cuenta1.setSaldo(675);
+		
+		//Creo el objeto Cuenta y lo refrencio con cuenta2
+		Cuenta cuenta2 = new Cuenta("03476", "C", 98);
+		
+		//Creo el objeto Cuenta y lo refrencio con cuenta3
+		Cuenta cuenta3 = new Cuenta("03476");
+		
+		//modifico el tipo de cuenta
+		cuenta3.setTipo("C");
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.cmc.admin;
+
+public class AdminProducto {
+
+	// compara: recibe 2 parámtero de tipo Producto
+	// comparar los precios de los Productos
+	// retorna el Producto de mayor valor
+}

@@ -1,0 +1,20 @@
+package com.cmc.repaso.test;
+
+import com.cmc.repaso.entidades.Item;
+
+public class TestItem {
+
+	public static void main(String[] args) {
+
+		Item item = new Item();
+		item.setProductosActuales(20);
+		System.out.println("-----Valores inciales------");
+		item.imprmir();
+		item.vender(10);
+		item.imprmir();
+		item.devolver(2);
+		item.imprmir();
+
+	}
+
+}

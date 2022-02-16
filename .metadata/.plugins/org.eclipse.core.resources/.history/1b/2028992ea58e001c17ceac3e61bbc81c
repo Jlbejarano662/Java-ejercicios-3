@@ -1,0 +1,15 @@
+package clearminds.cuentas;
+
+public class TestCuenta {
+
+	public static void main(String[] args) {
+		//Creo el objeto Cuenta y lo referencio con cuenta1
+		
+		Cuenta cuenta1 = new Cuenta("03476");
+		
+		//Coloco un valor de saldo en la cuenta1
+		cuenta1
+
+	}
+
+}

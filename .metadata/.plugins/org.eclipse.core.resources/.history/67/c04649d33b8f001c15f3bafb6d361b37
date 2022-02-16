@@ -1,0 +1,18 @@
+package com.cmc.directorio.entidades;
+
+public class AdminContactos {
+
+	public Contacto buscarMasPesado(Contacto a, Contacto b) {
+		if(a.getPeso() > b.getPeso()) {
+			return a;
+		} else if (b.getPeso() > a.getPeso()) {
+			return b;
+		} else {
+			return null;
+		}
+	}
+	
+	public boolean compararOperadoras(Contacto a, Contacto b) {
+		
+	}
+}

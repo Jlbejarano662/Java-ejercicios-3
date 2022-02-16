@@ -1,0 +1,29 @@
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		// Comentario
+		Persona p1; // Declaro una variable p1 de tipo Persona
+		p1 = new Persona(); // Creo el objeto Persona y lo referencio con p1
+		System.out.println("nombre: " + p1.getNombre());
+		System.out.println("edad: " + p1.getEdad()d);
+		System.out.println("estatura: " + p1.getEstatura());
+		
+		p1.getNombre() = "Juan";
+		p1.getEdad() = 20;
+		p1.getEstatura() = 1.75;
+		
+		System.out.println("nombre: " + p1.nombre);
+		System.out.println("edad: " + p1.edad);
+		System.out.println("estatura: " + p1.estatura);
+		
+		System.out.println("***************");
+		Persona p2;
+		p2 = new Persona();
+		System.out.println("nombre: " + p2.nombre);
+		p2.nombre = "Marco";
+		System.out.println("nombre: " + p2.nombre);
+		
+	}
+
+}

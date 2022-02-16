@@ -1,0 +1,29 @@
+
+public class TestAuto {
+
+	public static void main(String[] args) {
+		// Comentario
+		Auto a1; // Declaro una variable a1 de tipo Auto
+		a1 = new Auto(); // Creo el objeto Auto y lo referencio con a1
+		System.out.println("nombre: " + p1.nombre);
+		System.out.println("edad: " + p1.edad);
+		System.out.println("estatura: " + p1.estatura);
+		
+		p1.nombre = "Juan";
+		p1.edad = 20;
+		p1.estatura = 1.75;
+		
+		System.out.println("nombre: " + p1.nombre);
+		System.out.println("edad: " + p1.edad);
+		System.out.println("estatura: " + p1.estatura);
+		
+		System.out.println("***************");
+		Auto a2;
+		a2 = new Auto();
+		System.out.println("nombre: " + p2.nombre);
+		p2.nombre = "Marco";
+		System.out.println("nombre: " + p2.nombre);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.cmc.repaso.test;
+
+import com.cmc.repaso.entidades.Producto;
+
+public class TestPeoducto {
+
+	public static void main(String[] args) {
+
+		Producto producto = new Producto("Arroz", 1200);
+		producto.setPrecio(-200);
+		double precio = producto.getPrecio();
+		System.out.println(precio);
+		double precioPromo = producto.calcularPrecioPromo(20);
+		System.out.println(precioPromo);
+	}
+
+}
