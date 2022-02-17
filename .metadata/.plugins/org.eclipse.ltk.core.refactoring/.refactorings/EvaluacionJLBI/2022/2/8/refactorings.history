@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.clearminds.compomente&apos; to &apos;com.clearminds.componentes&apos;&#x0D;&#x0A;- Original project: &apos;EvaluacionJLBI&apos;&#x0D;&#x0A;- Original element: &apos;EvaluacionJLBI/src/com.clearminds.compomente&apos;&#x0D;&#x0A;- Renamed element: &apos;EvaluacionJLBI/src/com.clearminds.componentes&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.clearminds.compomente&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.clearminds.compomente" name="com.clearminds.componentes" qualified="false" references="true" stamp="1645049762842" textual="false" version="1.0"/>
+</session>
