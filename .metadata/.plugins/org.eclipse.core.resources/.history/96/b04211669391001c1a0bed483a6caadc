@@ -1,0 +1,7 @@
+package com.cmc.servicios;
+
+public class AdminEstudiantes {
+
+	private ArrayList<Estudiante> estudiantes;
+	
+}

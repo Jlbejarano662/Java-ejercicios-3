@@ -1,0 +1,24 @@
+package com.cmc.colecciones;
+
+import java.util.ArrayList;
+
+public class Ejemplo2 {
+
+	public static void main(String[] args) {
+		ArrayList<String> lista = new ArrayList<String>();
+		lista.add("a"); //0
+		lista.add("b"); //1
+		lista.add("c"); //2
+		
+		// Un ArrayList es una coleccion que trabaja por indices, es muy similar a un Arreglos,
+		// su diferencia radica en que este ni tene un tamaño definido, es decir, puede crecer a
+		// petición.
+		
+		String recuperado = lista.get(0);
+		System.out.println(recuperado);
+		
+		int tamanio = lista.size();
+		System.out.println("tamanio: " + tamanio);
+	}
+
+}

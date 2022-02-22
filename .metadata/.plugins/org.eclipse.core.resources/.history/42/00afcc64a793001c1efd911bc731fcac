@@ -1,0 +1,23 @@
+package com.cmc.test;
+
+import com.cmc.colecciones.DirectorioLista;
+import com.cmc.entidades.Contacto;
+
+public class TestDirectorioLista {
+
+	public static void main(String[] args) {
+		DirectorioLista directorioLista = new DirectorioLista();
+		
+		System.out.println("__________________AGREGANDO CONTACTOS_____________________");
+		directorioLista.agregarContacto(new Contacto("123", "probando", "wiii"));
+		directorioLista.agregarContacto(new Contacto("456", "probando2", "wiii"));
+		directorioLista.agregarContacto(new Contacto("123", "probando2", "wiii"));
+		directorioLista.imprimir();
+		
+		System.out.println("__________________ELIMINANDO CONTACTO_________________");
+		directorioLista.eliminarContacto("456");
+		directorioLista.eliminarContacto("4568");
+		directorioLista.imprimir();
+	}
+
+}

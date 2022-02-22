@@ -1,0 +1,46 @@
+package com.clearminds.test;
+
+import java.util.ArrayList;
+
+import com.clearminds.componentes.MaquinaDulces;
+import com.clearminds.componentes.Producto;
+
+public class TestBuscarMenores {
+	
+	public static void main(String[] args) {
+		MaquinaDulces maquina=new MaquinaDulces();
+		maquina.agregarCelda("A");
+		maquina.agregarCelda("B");
+		maquina.agregarCelda("C");
+		maquina.agregarCelda("D");
+		maquina.agregarCelda("E");
+		maquina.agregarCelda("F");
+		
+		Producto producto = new Producto("KE34","Papitas",0.85);
+		maquina.cargarProducto(producto, "A", 4);
+		
+		Producto producto2 = new Producto("H46","Doritos",0.70);
+		maquina.cargarProducto(producto2, "B", 6);
+		
+		Producto producto3 = new Producto("D456","Trocipollo",0.90);
+		maquina.cargarProducto(producto3, "C", 6);
+		
+		Producto producto4 = new Producto("D56","Rosquitas",0.80);
+		maquina.cargarProducto(producto4, "D", 6);
+		
+		Producto producto5 = new Producto("D4","Mani",0.77);
+		maquina.cargarProducto(producto5, "E", 6);
+		
+		Producto producto6 = new Producto("D6","Caramelos",0.23);
+		maquina.cargarProducto(producto6, "F", 6);
+		
+		maquina.mostrarProductos();
+		
+		ArrayList<Producto> menores = maquina.buscarMenores(0.7);
+		for(int i = 0; i < menores.size(); i++) {
+			System.out.println("CELDA: " + menores.get(i).getNombre());
+		}
+
+	}
+	
+}

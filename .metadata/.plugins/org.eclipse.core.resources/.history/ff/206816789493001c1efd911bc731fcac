@@ -1,0 +1,12 @@
+package com.cmc.test;
+
+public class TestContacto {
+
+	public static void main(String[] args) {
+        Contacto contacto = new Contacto("123", "probando", "wiii");
+        contacto.agregarTelefono("movi", "32548");
+        System.out.println(contacto);
+
+	}
+
+}

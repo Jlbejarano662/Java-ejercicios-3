@@ -1,0 +1,14 @@
+package com.cmc.test;
+
+import com.cmc.entidades.Contacto;
+import com.cmc.entidades.Telefono;
+
+public class TestContacto {
+
+	public static void main(String[] args) {
+        Contacto contacto = new Contacto("123", "probando", "wiii");
+        contacto.agregarTelefono( new Telefono("movi", "32548"));
+        System.out.println(contacto);
+	}
+
+}

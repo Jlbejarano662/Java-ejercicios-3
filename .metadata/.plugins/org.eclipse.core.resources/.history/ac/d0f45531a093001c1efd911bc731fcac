@@ -1,0 +1,52 @@
+package com.cmc.colecciones;
+
+import com.cmc.entidades.Contacto;
+
+public class DirectorioArreglo extends Directorio {
+
+	private Contacto[] contactos;
+	private int elementosAgregados;
+
+	public DirectorioArreglo() {
+		this.contactos = new Contacto[10];
+	}
+	
+    @Override
+    public void agregarContacto(Contacto contacto) {
+        Contacto contactoEncontrado = buscarContacto(contacto.getCedula());
+        if (contactoEncontrado == null) {
+            contactos[elementosAgregados] = contacto;
+            elementosAgregados = elementosAgregados + 1;
+        }
+    }
+
+    @Override
+    public Contacto buscarContacto(String cedula) {
+        for (Contacto contacto : contactos) {
+            if (contacto.getCedula().equals(cedula)) {
+                return contacto;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public Contacto eliminarContacto(String cedula) {
+        int indice;
+    	for (Contacto contacto : contactos) {
+            indice += 1;
+    		if (contacto.getCedula().equals(cedula)) {
+            	contacto[indice]=null;
+            	return contacto;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public void imprimir() {
+        for (Contacto contacto : contactos) {
+            System.out.println(contacto);
+        }
+    
+}

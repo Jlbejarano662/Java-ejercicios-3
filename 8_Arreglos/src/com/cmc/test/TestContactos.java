@@ -1,0 +1,28 @@
+package com.cmc.test;
+
+import com.cmc.entidades.Contacto;
+
+public class TestContactos {
+
+	public static void main(String[] args) {
+		Contacto [] contactos = new Contacto[5];
+		contactos[0] = new Contacto("123", "Juan");
+		contactos[1] = new Contacto("456", "Rosario");
+		
+		//Contacto c = contactos[2];
+		//System.out.println(c);
+		
+		//Contacto c1 = contactos[1];
+		//System.out.println(c1);
+		
+		//Contacto c2 = contactos[5];
+		//System.out.println(c2);
+		
+		Contacto contacto = null;
+		for(int i = 0; i < contactos.length; i++) { //para saber el tamaño se utiliza el atributo length
+			contacto = contactos[i];
+			System.out.println(contacto);
+		}
+	}
+
+}

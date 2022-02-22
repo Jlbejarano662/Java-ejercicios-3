@@ -1,0 +1,8 @@
+package com.cmc.test;
+
+public class TestAdmin {
+	
+	public static void main(String[] args) {
+		AdminPersona admin = new AdminPersona();
+	}
+}

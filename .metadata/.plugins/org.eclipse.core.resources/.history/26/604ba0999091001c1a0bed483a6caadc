@@ -1,0 +1,15 @@
+package com.cmc.entidades;
+
+public class Contacto {
+
+	private String codigo;
+	private String nombre;
+	
+	public Contacto(String codigo, String nombre) {
+		super();
+		this.codigo = codigo;
+		this.nombre = nombre;
+	}
+	
+	
+}

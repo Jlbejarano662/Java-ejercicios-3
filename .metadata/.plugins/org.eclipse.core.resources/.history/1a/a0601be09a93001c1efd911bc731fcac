@@ -1,0 +1,60 @@
+package com.cmc.colecciones;
+
+import java.util.ArrayList;
+
+import com.cmc.entidades.Contacto;
+
+public class DirectorioLista extends Directorio {
+
+    private ArrayList<Contacto> contactos;
+
+    public DirectorioLista() {
+        this.contactos = new ArrayList<Contacto>();
+    }
+
+    @Override
+    public void agregarContacto(Contacto contacto) {
+    	System.out.println("tt");
+        Contacto contactoEncontrado = buscarContacto(contacto.getCedula());
+        if (contactoEncontrado == null) {
+            contactos.add(contacto);
+        }
+    }
+
+    @Override
+    public Contacto buscarContacto(String cedula) {
+    	System.out.println("i");
+    	System.out.println(contactos);
+        for (Contacto contacto : contactos) {
+        	System.out.println("o");
+        	System.out.println(contacto);
+            if (contacto.getCedula().equals(cedula)) {
+                return contacto;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public Contacto eliminarContacto(String cedula) {
+        Contacto contactoEncontrado = buscarContacto(cedula);
+        if (contactoEncontrado != null) {
+            contactos.remove(contactoEncontrado);
+            return contactoEncontrado;
+        }
+        return null;
+    }
+
+    @Override
+    public void imprimir() {
+        for (Contacto contacto : contactos) {
+            System.out.println(contacto.toString());
+        }
+    }
+
+	@Override
+	public String toString() {
+		return "DirectorioLista [contactos=" + contactos + "]";
+	}
+    
+}

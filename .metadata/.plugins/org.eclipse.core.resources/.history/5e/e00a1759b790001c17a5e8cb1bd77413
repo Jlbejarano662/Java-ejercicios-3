@@ -1,0 +1,12 @@
+package com.clearminds.maquina;
+
+import java.util.ArrayList;
+
+public class MaquinaDulces {
+
+	private ArrayList celdas;
+
+	private double saldo;
+	
+
+}

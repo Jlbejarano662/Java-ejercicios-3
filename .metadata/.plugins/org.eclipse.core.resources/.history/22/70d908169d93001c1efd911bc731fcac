@@ -1,0 +1,13 @@
+package com.cmc.colecciones;
+
+import com.cmc.entidades.Contacto;
+
+public class DirectorioArreglo extends Directorio {
+
+	private Contacto[] contactos;
+
+	public DirectorioArreglo() {
+		this.contactos = new Contacto[10];
+	}
+	
+}

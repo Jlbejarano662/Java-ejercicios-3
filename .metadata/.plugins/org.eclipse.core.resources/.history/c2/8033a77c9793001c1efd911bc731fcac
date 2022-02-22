@@ -1,0 +1,14 @@
+package com.cmc.test;
+
+import com.cmc.colecciones.DirectorioLista;
+import com.cmc.entidades.Contacto;
+
+public class TestDirectorioLista {
+
+	public static void main(String[] args) {
+		DirectorioLista directorioLista = new DirectorioLista();
+		directorioLista.agregarContacto(new Contacto("123", "probando", "wiii"));
+
+	}
+
+}

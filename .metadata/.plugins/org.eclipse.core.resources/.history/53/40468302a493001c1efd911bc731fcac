@@ -1,0 +1,49 @@
+package com.cmc.colecciones;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import com.cmc.entidades.Contacto;
+
+public class DirectorioMapa {
+	
+	private HashMap<String, Contacto> contactos;
+	
+    public DirectorioMapa() {
+        this.contactos = new HashMap<String, Contacto>();
+    }
+
+    @Override
+    public void agregarContacto(Contacto contacto) {
+        Contacto contactoEncontrado = buscarContacto(contacto.getCedula());
+        if (contactoEncontrado == null) {
+            contactos.add(contacto);
+        }
+    }
+
+    @Override
+    public Contacto buscarContacto(String cedula) {
+		if(contactos.containsKey(cedula)) {
+			return contactos.get(cedula);
+		}
+        return null;
+    }
+
+    @Override
+    public Contacto eliminarContacto(String cedula) {
+        Contacto contactoEncontrado = buscarContacto(cedula);
+        if (contactoEncontrado != null) {
+            contactos.remove(contactoEncontrado);
+            return contactoEncontrado;
+        }
+        return null;
+    }
+
+    @Override
+    public void imprimir() {
+        for (Contacto contacto : contactos) {
+            System.out.println(contacto);
+        }
+    }
+    
+}

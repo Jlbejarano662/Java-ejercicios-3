@@ -1,0 +1,12 @@
+package com.clearminds.maquina;
+
+import com.clearminds.componentes.Celda;
+
+public class MaquinaDulces {
+
+	private Celda celda1;
+
+	private double saldo;
+	
+
+}

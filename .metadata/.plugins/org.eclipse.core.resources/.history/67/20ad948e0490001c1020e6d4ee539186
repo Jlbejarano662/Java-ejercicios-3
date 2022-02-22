@@ -1,0 +1,8 @@
+package com.cmc.colecciones;
+
+import java.util.ArrayList;
+
+public class Ejemplo3 {
+	ArrayList<String> lista = new ArrayList<String>();
+	
+}

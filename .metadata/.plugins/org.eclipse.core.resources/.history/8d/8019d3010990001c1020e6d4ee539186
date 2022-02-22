@@ -1,0 +1,37 @@
+package com.cmc.colecciones;
+
+import java.util.ArrayList;
+
+import com.cmc.entidades.Persona;
+
+public class AdminPersona {
+	private ArrayList<Persona> personas;
+	
+	public AdminPersona() {
+		this.personas = new ArrayList<Persona>();
+	}
+	public void agregar(Persona persona) {
+		personas.add(persona); //null.add(persona);
+	}
+	
+	public void imprimir() {
+		Persona per = null;
+		for( int i = 0; i < personas.size(); i++) { //null.size();
+			per = personas.get(i);
+			System.out.println("Nombre: " + per.getNombre() + " Edad: " + per.getEdad());
+		}
+	}
+	
+	//retorna la persona si el nombre coincide, caso contrario retorna null
+	public Persona buscar(String nombre) {
+		Persona per;
+		for( int i = 0; i < personas.size(); i++) { //null.size();
+			per = personas.get(i);
+			if(per.getNombre().equals(nombre)) { //OJO AL COMPARAR CLASES
+				return per;
+			}
+		}
+		//lega a este punto solo si no encontro la persona
+		return null;
+	}
+}

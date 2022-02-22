@@ -1,0 +1,8 @@
+package com.cmc.herencia;
+
+public class Perro extends Animal{
+	
+	public void ladra() {
+		System.out.println("Perro ladrando");
+	}
+}

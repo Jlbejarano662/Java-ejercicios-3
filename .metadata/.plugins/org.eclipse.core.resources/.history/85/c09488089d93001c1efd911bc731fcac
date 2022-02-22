@@ -1,0 +1,6 @@
+package com.cmc.colecciones;
+
+public class DirectorioArreglo extends Directorio {
+
+	private Contacto[] contactos;
+}

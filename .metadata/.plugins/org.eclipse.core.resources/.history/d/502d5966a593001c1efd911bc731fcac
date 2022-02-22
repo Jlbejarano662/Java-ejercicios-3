@@ -1,0 +1,23 @@
+package com.cmc.test;
+
+import com.cmc.colecciones.DirectorioMapa;
+import com.cmc.entidades.Contacto;
+
+public class TestDirectorioMapa {
+
+	public static void main(String[] args) {
+		DirectorioMapa directorioMapa= new DirectorioMapa();
+		
+		System.out.println("__________________AGREGANDO CONTACTOS_____________________");
+		directorioMapa.agregarContacto(new Contacto("123", "probando", "wiii"));
+		directorioMapa.agregarContacto(new Contacto("456", "probando2", "wiii"));
+		directorioMapa.agregarContacto(new Contacto("123", "probando2", "wiii"));
+		directorioMapa.imprimir();
+		
+		System.out.println("__________________ELIMINANDO CONTACTO_________________");
+		directorioMapa.eliminarContacto("456");
+		directorioMapa.eliminarContacto("4568");
+		directorioMapa.imprimir();
+	}
+
+}

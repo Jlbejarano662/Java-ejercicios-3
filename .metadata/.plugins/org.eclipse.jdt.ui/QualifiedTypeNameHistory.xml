@@ -9,4 +9,6 @@
 <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Telefono"/>
 <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Contacto"/>
 <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminContactos"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.cmc.entidades.Telefono"/>
 </qualifiedTypeNameHistroy>

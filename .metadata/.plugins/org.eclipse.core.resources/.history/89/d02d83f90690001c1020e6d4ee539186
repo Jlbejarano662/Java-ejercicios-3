@@ -1,0 +1,17 @@
+package com.cmc.colecciones;
+
+import java.util.ArrayList;
+
+import com.cmc.entidades.Persona;
+
+public class AdminPersona {
+	private ArrayList<Persona> personas;
+	
+	public void agregar(Persona persona) {
+		personas.add(persona);
+	}
+	
+	public void imprimir() {
+		
+	}
+}

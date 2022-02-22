@@ -1,0 +1,10 @@
+package com.cmc.test;
+
+public class TestArreglos {
+
+	public static void main(String[] args) {
+		int [] enteros = new int[];
+
+	}
+
+}

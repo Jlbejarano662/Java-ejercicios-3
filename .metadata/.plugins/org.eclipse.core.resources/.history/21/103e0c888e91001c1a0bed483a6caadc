@@ -1,0 +1,22 @@
+package com.cmc.test;
+
+import java.util.HashMap;
+
+import com.cmc.entidades.Cliente;
+
+public class TestMapasCliente {
+
+	public static void main(String[] args) {
+		HashMap<String, Cliente> mapa = new HashMap<String, Cliente>();
+		
+		mapa.put("123456", new Cliente("123456", "Ramiro"));
+		mapa.put("3456", new Cliente("3456", "Teresa"));
+		
+		Cliente c = mapa.get("3456");
+		System.out.println(c);
+		
+		Cliente c1 = mapa.get("666");
+		System.out.println(c1);//Retornará null, por definición del método
+	}
+
+}

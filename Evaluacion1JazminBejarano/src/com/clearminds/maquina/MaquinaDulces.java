@@ -1,0 +1,48 @@
+
+package com.clearminds.maquina;
+
+import java.util.ArrayList;
+
+import com.clearminds.componentes.Celda;
+
+public class MaquinaDulces {
+
+	private ArrayList<Celda> celdas;
+	private double saldo;
+	
+	public ArrayList<Celda> getCeldas() {
+		return celdas;
+	}
+	
+	public void setCeldas(ArrayList<Celda> celdas) {
+		this.celdas = celdas;
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public void agregarCelda(String codigo) {
+		Celda celda = new Celda(codigo);
+		celdas.add(celda);
+	}
+	
+	public void mostrarConfiguracion() {
+		for(int i = 0; i < celdas.size(); i++) {
+			System.out.println(celdas.get(i).getCodigo());
+		}
+	}
+	
+	public Celda buscarCelda(String codigo) {
+		for(int i = 0; i < celdas.size(); i++) {
+			if(celdas.get(i).getCodigo().equals(codigo)) {
+				return celdas.get(i);
+			}
+		}
+		return null;
+	}
+}
