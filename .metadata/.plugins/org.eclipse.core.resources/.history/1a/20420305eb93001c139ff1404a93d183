@@ -1,0 +1,12 @@
+package com.cmc.test;
+
+import com.cmc.estaticos.Util;
+
+public class TestValidar {
+
+	public static void main(String[] args) {
+		Util util = new Util();
+
+	}
+
+}

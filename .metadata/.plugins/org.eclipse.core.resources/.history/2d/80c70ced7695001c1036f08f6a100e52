@@ -1,0 +1,10 @@
+package com.cmc.evaluacion.fase2.entidades;
+
+public class Cartera {
+
+	private ArrayList<Cliente> clientes;
+	
+	public Cartera() {
+		this.clientes = new ArrayList<Cliente>();
+	}
+}

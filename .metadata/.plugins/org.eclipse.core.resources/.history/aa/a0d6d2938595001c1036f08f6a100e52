@@ -1,0 +1,45 @@
+package com.cmc.evaluacion.fase2.entidades;
+
+import java.util.ArrayList;
+
+public class Cartera {
+
+	private ArrayList<Cliente> clientes;
+	
+	public Cartera() {
+		this.clientes = new ArrayList<Cliente>();
+	}
+
+	public ArrayList<Cliente> getClientes() {
+		return clientes;
+	}
+
+	public void setClientes(ArrayList<Cliente> clientes) {
+		this.clientes = clientes;
+	}
+
+	public Cliente buscarCliente(String cedula) {
+		for (Cliente cliente : clientes) {
+			if(cliente.getCedula().equals(cedula)) {
+				return cliente;
+			}
+		}
+		return null;
+	}
+	
+	public boolean agregarCliente(Cliente cliente) {
+		Cliente clienteEncontrado = buscarCliente(cliente.getCedula());
+		if(clienteEncontrado == null) {
+			clientes.add(cliente);
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	@Override
+	public String toString() {
+		return "Cartera [clientes=" + clientes + "]";
+	}
+	
+}

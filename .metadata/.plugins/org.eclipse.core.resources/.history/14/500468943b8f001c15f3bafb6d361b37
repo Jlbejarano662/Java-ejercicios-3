@@ -1,8 +1,0 @@
-package com.cmc.directorio.entidades;
-
-public class AdminContactos {
-
-	public Contacto buscarMasPesado(Contacto a, Contacto b) {
-		
-	}
-}

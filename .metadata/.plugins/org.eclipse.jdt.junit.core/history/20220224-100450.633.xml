@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestArchivoCorrupto" project="fase2.test" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.cmc.evaluacion.fase2.test.TestArchivoCorrupto" time="0.568">
+    <testcase name="testLeer" classname="com.cmc.evaluacion.fase2.test.TestArchivoCorrupto" time="0.568">
+      <error>com.cmc.excepciones.EvaluacionException: error al armar cliente en la linea:0912313123,Beatriz Rosales&#13;
+	at com.cmc.evaluacion.fase2.servicios.AdminClientes.armarCliente(AdminClientes.java:28)&#13;
+	at com.cmc.evaluacion.fase2.servicios.AdminClientes.armarCartera(AdminClientes.java:44)&#13;
+	at com.cmc.evaluacion.fase2.test.TestArchivoCorrupto.testLeer(TestArchivoCorrupto.java:13)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:154)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:127)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:106)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:124)&#13;
+	at junit.framework.TestResult.run(TestResult.java:109)&#13;
+	at junit.framework.TestCase.run(TestCase.java:118)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:203)&#13;
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:121)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

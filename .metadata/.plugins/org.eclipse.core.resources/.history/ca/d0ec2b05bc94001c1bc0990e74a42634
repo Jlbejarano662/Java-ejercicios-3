@@ -1,0 +1,5 @@
+package com.cmc.capacitacion.excepciones;
+
+public class ToxicaException extends Exception {
+
+}

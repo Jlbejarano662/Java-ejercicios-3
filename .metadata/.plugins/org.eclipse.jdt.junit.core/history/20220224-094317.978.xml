@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCartera" project="fase2.test" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cmc.evaluacion.fase2.test.TestCartera" time="0.0">
+    <testcase name="testAgregarSimple" classname="com.cmc.evaluacion.fase2.test.TestCartera" time="0.0"/>
+    <testcase name="testAgregarVarios" classname="com.cmc.evaluacion.fase2.test.TestCartera" time="0.0"/>
+    <testcase name="testAgregarDuplicado" classname="com.cmc.evaluacion.fase2.test.TestCartera" time="0.0"/>
+  </testsuite>
+</testrun>

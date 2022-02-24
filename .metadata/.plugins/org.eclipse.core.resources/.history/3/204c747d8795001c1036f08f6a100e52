@@ -1,0 +1,6 @@
+package com.cmc.commonc.util;
+
+public class TipoPrestamo {
+
+	private static final String HIPOTECARIO = "H";
+}

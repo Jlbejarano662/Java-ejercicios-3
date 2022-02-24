@@ -11,4 +11,19 @@
 <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminContactos"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="com.cmc.entidades.Telefono"/>
+<fullyQualifiedTypeName name="com.cmc.estaticos.Util"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.cmc.util.Dado"/>
+<fullyQualifiedTypeName name="java.util.logging.LogManager"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.cmc.excepciones.CheckedException"/>
+<fullyQualifiedTypeName name="javax.sql.rowset.spi.TransactionalWriter"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+<fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+<fullyQualifiedTypeName name="com.cmc.capacitacion.excepciones.ToxicaException"/>
+<fullyQualifiedTypeName name="com.cmc.capacitacion.archivos.ManejadorArchivos"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 </qualifiedTypeNameHistroy>

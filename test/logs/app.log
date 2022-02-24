@@ -1,0 +1,12 @@
+2022-02-23 10:47:18.088 [main] ERROR com.cmc.capacitacion.archivos.ManejadorArchivos - No existe el archivo 
+java.io.FileNotFoundException: C:\Users\jasmi\OneDrive\Documents\ejempddlo.txt (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_281]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_281]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_281]
+	at java.io.FileReader.<init>(FileReader.java:72) ~[?:1.8.0_281]
+	at com.cmc.capacitacion.archivos.ManejadorArchivos.leer(ManejadorArchivos.java:23) [classes/:?]
+	at com.cmc.capacitacion.test.TestManejador.main(TestManejador.java:15) [classes/:?]
+2022-02-23 10:47:18.098 [main] ERROR com.cmc.capacitacion.test.TestManejador - No existe el archivo 
+com.cmc.capacitacion.excepciones.ToxicaException: No existe el archivo C:\Users\jasmi\OneDrive\Documents\ejempddlo.txt
+	at com.cmc.capacitacion.archivos.ManejadorArchivos.leer(ManejadorArchivos.java:28) ~[classes/:?]
+	at com.cmc.capacitacion.test.TestManejador.main(TestManejador.java:15) [classes/:?]

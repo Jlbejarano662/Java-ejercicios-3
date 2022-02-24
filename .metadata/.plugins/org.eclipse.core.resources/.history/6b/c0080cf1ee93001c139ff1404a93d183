@@ -1,0 +1,20 @@
+package com.cmc.test;
+
+import com.cmc.estaticos.DiasSemana;
+
+public class TestDiasSemana {
+
+	public static void main(String[] args) {
+		DiasSemana ds = new DiasSemana();
+		int valor = ds.MARTES;
+		System.out.println(valor);
+
+		valor = DiasSemana.MIERCOLES;
+		System.out.println(valor);
+		
+		//Ejemplos de constantes estáticas
+		
+		double d1 = Math.PI;
+	}
+
+}

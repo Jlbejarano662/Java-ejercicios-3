@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cmc.excepciones.Checked&apos; to &apos;CheckedException&apos;&#x0D;&#x0A;- Original project: &apos;11_Excepciones&apos;&#x0D;&#x0A;- Original element: &apos;com.cmc.excepciones.Checked&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cmc.excepciones.CheckedException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Checked&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.cmc.excepciones{Checked.java[Checked" matchStrategy="1" name="CheckedException" qualified="false" references="true" similarDeclarations="false" stamp="1645622546091" textual="false" version="1.0"/>
+</session>

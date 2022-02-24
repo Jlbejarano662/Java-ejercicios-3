@@ -1,0 +1,10 @@
+package com.cmc.capacitacion.test;
+
+public class TestManejador {
+
+	public static void main(String[] args) {
+		ManejadorArchivo m = new ManejadorArchivo("C:\\Users\\jasmi\\OneDrive\\Documents");
+
+	}
+
+}

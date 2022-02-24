@@ -1,0 +1,22 @@
+package com.cmc.juego;
+
+import com.cmc.util.Dado;
+
+public class AdminJuego {
+
+	public void jugar() {
+		int valor = Dado.lanzar();
+	}
+	
+	/* El x.java es el código fuente y el x.class es el byteCode, es decir, el código que 
+	 * se puede ejecutar. Por tanto, se puede sitribuir el codigo fuente o el compilado, pero los
+	 * compilados de Java se deben empaquetar en "jars".
+	 * 
+	 * Java no se ejecuta directamente sobre el sistema, lo hace en una maquina virtual y por ello
+	 * es multiplataforma.
+	 * 
+	 * El jar no es más que un comprimido, que tiene el byteCode o x.class que se quieren distribuir, en lugar
+	 * de pasar el código fuente.
+	 */
+
+}

@@ -1,0 +1,6 @@
+package com.cmc.excepciones;
+
+public class Cuenta {
+	
+	private double saldo;
+}

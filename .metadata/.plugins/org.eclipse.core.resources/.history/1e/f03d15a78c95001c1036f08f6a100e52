@@ -1,0 +1,15 @@
+package com.cmc.commons.util;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateUtil {
+	
+	private final String FORMATO = "yyyy-dd-MM";
+	
+	public static Date convertir(String fecha){
+		Date date = new Date();
+		SimpleDateFormat f = new SimpleDateFormat(FORMATO);
+		date = f.parse
+	}
+}

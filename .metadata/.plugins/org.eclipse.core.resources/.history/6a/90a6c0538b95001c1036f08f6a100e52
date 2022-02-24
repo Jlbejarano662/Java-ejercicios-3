@@ -1,0 +1,11 @@
+package com.cmc.commons.util;
+
+import java.util.Date;
+
+public class DateUtil {
+	
+	private 
+	public static Date convertir(String fecha){
+		SimpleDataFormat f = null;
+	}
+}

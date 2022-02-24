@@ -1,0 +1,6 @@
+package com.cmc.log;
+
+public class Admin {
+	
+	private static Logger logger = Lo
+}

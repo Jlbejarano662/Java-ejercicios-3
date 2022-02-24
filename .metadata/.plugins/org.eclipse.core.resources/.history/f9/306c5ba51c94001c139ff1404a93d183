@@ -1,0 +1,14 @@
+package com.cmc.calificaciones.entidades;
+
+public class Estudiante {
+
+	private String nombre;
+	private String apellido;
+	
+	public Estudiante(String nombre, String apellido) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
+	
+}

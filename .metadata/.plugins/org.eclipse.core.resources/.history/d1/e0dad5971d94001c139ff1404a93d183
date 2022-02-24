@@ -1,0 +1,8 @@
+package com.cmc.calificaciones.servicios;
+
+import java.util.ArrayList;
+
+public class AdminEstudiante {
+
+	private ArrayList<Estudiante> estudiantes;
+}

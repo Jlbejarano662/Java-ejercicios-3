@@ -1,0 +1,16 @@
+package com.cmc.capacitacion.archivos;
+
+import java.io.File;
+
+public class ManejadorArchivos {
+	private String rutaArchivo;
+	
+	public ManejadorArchivos(String rutaArchivo) {
+		this.rutaArchivo = rutaArchivo;
+	}
+	
+	public void leer() {
+		File file = new File(rutaArchivo);
+		FileReader fileReader = new FileReader(file);
+	}
+}

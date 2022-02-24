@@ -1,0 +1,3 @@
+2022-02-23 09:43:37.953 [main] ERROR com.cmc.excepciones.Ejercicio6 - Error no controlado al despositar
+java.lang.NullPointerException: null
+	at com.cmc.excepciones.Ejercicio6.main(Ejercicio6.java:14) [bin/:?]

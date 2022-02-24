@@ -1,0 +1,14 @@
+package com.cmc.excepciones;
+
+import javax.sql.rowset.spi.TransactionalWriter;
+
+public class Cuenta {
+	
+	private double saldo;
+	
+	public void depositar(double monto) throws CheckedException {
+		if (monto < 0) {
+			
+		}
+	}
+}

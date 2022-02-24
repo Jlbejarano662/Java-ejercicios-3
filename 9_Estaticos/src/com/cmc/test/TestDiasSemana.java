@@ -1,0 +1,33 @@
+package com.cmc.test;
+
+import com.cmc.estaticos.DiasSemana;
+
+/*Los imports estaticos llegan hasta el atributo o método estático, los imports normales solo llegan hasta la clase;
+ * */
+import static java.lang.Math.PI;
+import static java.lang.Math.random;
+import static java.lang.System.out;
+
+public class TestDiasSemana {
+
+	public static void main(String[] args) {
+		DiasSemana ds = new DiasSemana();
+		int valor = ds.MARTES;
+		//System.out.println(valor);
+		out.println(valor);
+
+		valor = DiasSemana.MIERCOLES;
+		//System.out.println(valor);
+		out.println(valor);
+		// Ejemplos de constantes estáticas
+
+		//double d1 = Math.PI;
+		//System.out.println(d1);
+		double d1 = PI;
+		out.println(d1);
+		
+		double d2 = random();
+		out.println(d2);
+	}
+
+}

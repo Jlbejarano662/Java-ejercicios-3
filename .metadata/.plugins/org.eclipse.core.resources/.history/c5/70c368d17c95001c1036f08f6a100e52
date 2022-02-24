@@ -1,0 +1,67 @@
+package com.cmc.evaluacion.fase2.servicios;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+import com.cmc.evaluacion.fase2.entidades.Cartera;
+
+public class AdminClientes {
+
+	public static Cartera armarCartera(String rutaArchivo) {
+		File file = new File(rutaArchivo);
+		BufferedReader br = null;
+		FileReader fileReader = null;
+		Cartera cartera = new Cartera();
+		String linea = "";
+		String [] partes;
+		Cliente c;
+		try {
+			fileReader = new FileReader(file);
+			/*
+			int leido = fileReader.read();
+			System.out.println("leido: " + leido);
+			leido = fileReader.read();
+			System.out.println("leido: " + leido);
+			leido = fileReader.read();
+			System.out.println("leido: " + leido);
+			*/
+			br = new BufferedReader(fileReader);
+			/*
+			String linea = br.readLine();
+			System.out.println(linea);
+			*/
+			while((linea = br.readLine()) != null) {
+				partes = linea.split(",");
+				p = new Persona(partes[0], partes[1], partes[2]);
+				personas.add(p);
+			}
+		} catch (FileNotFoundException e) {
+			logger.error("No existe el archivo ", e);
+			throw new ToxicaException("No existe el archivo " + rutaArchivo);
+		} catch (IOException e) {
+			logger.error("Error al leer el archivo ", e);
+			throw new ToxicaException("No se pudo leer el archivo " + rutaArchivo);
+		} finally {
+			try {
+				if(br != null){
+					br.close();
+				}
+			} catch (Exception e) {
+				logger.error("Error al cerrar el BufferedReader ", e);
+			}
+			try {
+				if(fileReader != null) {  
+					fileReader.close();				
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				logger.error("Error al cerrar el fileReader ", e);
+			}
+		}
+		return personas;
+	}
+	}
+}

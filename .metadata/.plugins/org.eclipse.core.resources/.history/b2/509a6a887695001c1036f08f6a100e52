@@ -1,0 +1,12 @@
+package com.cmc.evaluacion.fase2.entidades;
+
+import java.util.Date;
+
+public class Pago {
+
+	private String numeroPrestamo;
+	private Date fechaPago;
+	private double monto;
+	
+	
+}

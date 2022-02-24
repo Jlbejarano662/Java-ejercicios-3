@@ -1,0 +1,13 @@
+package com.cmc.excepciones;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		System.out.println("inicio");
+		try {
+			String a = null;
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

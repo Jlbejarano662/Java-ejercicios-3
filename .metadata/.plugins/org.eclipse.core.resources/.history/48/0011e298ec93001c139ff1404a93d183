@@ -1,0 +1,10 @@
+package com.cmc.estaticos;
+
+public class Contador {
+
+	private int contadorNormal;
+	private static int contadorEstatico;
+	private String nombre;
+	
+	public void 
+}
